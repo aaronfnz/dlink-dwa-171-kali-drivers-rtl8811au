@@ -4,3 +4,6 @@ Instructions for installing Realtek RTL8811au on Kali Linux for monitor mode
 After much messing around with trying to get my DLink DWA-171 working in Kali, I've written down the steps required. The sudo apt upgrade part is optional.
 
 The USB adapter is using the RealTek RTL8811AU chipset and works in monitor mode. It supports 2.4 and 5ghz
+
+Enable 5ghz scanning with --band a 
+airmong-ng --band a
